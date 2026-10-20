@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pc/ontologies/2021/5/untitled-ontology-16#"
+     xml:base="http://www.semanticweb.org/pc/ontologies/2021/5/untitled-ontology-16"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pc/ontologies/2021/5/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Has_disease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Has_disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Major -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Major">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Major"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Minor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Minor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Minor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Moderate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Moderate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#HasInteractionOn"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Moderate"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Take_Medications -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Take_Medications"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Treated_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Treated_By"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#End_Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#End_Date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Has_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Has_Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pat_Id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pat_Id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pat_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pat_Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Start_Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Start_Date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Med_Date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doc_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doc_Name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Doctor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Acetaminophen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Acetaminophen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:End_Date>5/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>2/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>5/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Acetaminophen</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>2/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Amlodipine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Amlodipine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1"/>
+        <untitled-ontology-8:End_Date>5/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>5/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Aspirin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/4/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Asprin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Asprin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalpril"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalpril"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Theophylline"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Tramadol"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Theophylline"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Tramadol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxcin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxcin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Prednisolone"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Prednisolone"/>
+        <untitled-ontology-8:End_Date>20/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>20/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Ciprofloxcin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/4/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Clopidogrel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Clopidogrel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole"/>
+        <untitled-ontology-8:End_Date>15/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>15/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Clopidogrel</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#DiabetesMellitus_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#DiabetesMellitus_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:Has_Name>Diabetes Mellitus disease</untitled-ontology-8:Has_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Diclofenac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Diclofenac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Amlodipine"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Spironolactone"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Spironolactone"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Amlodipine"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1"/>
+        <untitled-ontology-8:End_Date>20/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>20/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Enalapril</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/4/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalpril -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalpril">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Asprin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Asprin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Hypertension_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Hypertension_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:Has_Name>Hypertension dieases</untitled-ontology-8:Has_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:End_Date>5/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>23/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>5/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Insulin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>23/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:End_Date>5/3/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>3/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>5/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Insulin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>3/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ischemic_Heart_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ischemic_Heart_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:Has_Name>Ischemic Heart
+Disease</untitled-ontology-8:Has_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:End_Date>20/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>20/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Metformin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/4/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:End_Date>10/2/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/2/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>10/2/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Metformin</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>1/2/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Prednisolone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Prednisolone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxcin"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxcin"/>
+        <untitled-ontology-8:End_Date>15/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>15/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>5/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Prednisolone</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>5/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pyrexia_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pyrexia_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Disease"/>
+        <untitled-ontology-8:Has_Name>Pyrexia disease</untitled-ontology-8:Has_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Rabeprazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Clopidogrel"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Clopidogrel"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Acetaminophen"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Diclofenac"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Acetaminophen"/>
+        <untitled-ontology-8:Minor rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Diclofenac"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin"/>
+        <untitled-ontology-8:Moderate rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1"/>
+        <untitled-ontology-8:End_Date>15/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>15/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>15/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Ranitidine</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>15/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Spironolactone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Spironolactone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Theophylline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Theophylline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin"/>
+        <untitled-ontology-8:End_Date>1/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>1/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>6/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Theophylline</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>6/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Tramadol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Tramadol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Medication"/>
+        <untitled-ontology-8:HasInteractionOn rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin"/>
+        <untitled-ontology-8:Major rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxacin"/>
+        <untitled-ontology-8:End_Date>15/4/2021</untitled-ontology-8:End_Date>
+        <untitled-ontology-8:Med_Date>15/4/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Date>20/3/2021</untitled-ontology-8:Med_Date>
+        <untitled-ontology-8:Med_Name>Tramadol</untitled-ontology-8:Med_Name>
+        <untitled-ontology-8:Start_Date>20/3/2021</untitled-ontology-8:Start_Date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Doctor"/>
+        <untitled-ontology-8:doc_Name>salah</untitled-ontology-8:doc_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+        <untitled-ontology-8:Has_disease rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ischemic_Heart_disease"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ciprofloxcin"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Prednisolone"/>
+        <untitled-ontology-8:Treated_By rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah"/>
+        <untitled-ontology-8:Pat_Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:Pat_Id>
+        <untitled-ontology-8:Pat_Name>Ahmed</untitled-ontology-8:Pat_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+        <untitled-ontology-8:Has_disease rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#DiabetesMellitus_disease"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Theophylline"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Tramadol"/>
+        <untitled-ontology-8:Treated_By rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah"/>
+        <untitled-ontology-8:Pat_Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:Pat_Id>
+        <untitled-ontology-8:Pat_Name>Saber</untitled-ontology-8:Pat_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+        <untitled-ontology-8:Has_disease rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#DiabetesMellitus_disease"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Acetaminophen"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Ranitidine"/>
+        <untitled-ontology-8:Treated_By rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah"/>
+        <untitled-ontology-8:Pat_Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-8:Pat_Id>
+        <untitled-ontology-8:Pat_Name>Ibrahim</untitled-ontology-8:Pat_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+        <untitled-ontology-8:Has_disease rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Hypertension_disease"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Enalapril"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Metformin1"/>
+        <untitled-ontology-8:Treated_By rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah"/>
+        <untitled-ontology-8:Pat_Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:Pat_Id>
+        <untitled-ontology-8:Pat_Name>Gamal</untitled-ontology-8:Pat_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#patient5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Patient"/>
+        <untitled-ontology-8:Has_disease rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Pyrexia_disease"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Aspirin"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Clopidogrel"/>
+        <untitled-ontology-8:Take_Medications rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#Insulin1"/>
+        <untitled-ontology-8:Treated_By rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/5/untitled-ontology-8#doctor_salah"/>
+        <untitled-ontology-8:Pat_Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-8:Pat_Id>
+        <untitled-ontology-8:Pat_Name>Nada</untitled-ontology-8:Pat_Name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
