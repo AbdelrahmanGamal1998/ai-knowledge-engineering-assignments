@@ -15,13 +15,13 @@ check() {
   fi
 }
 
-# Path to safety: start at (1,0) with 0 stars, reach the finish at (2,2) without stepping on a bomb.
+# Path to safety: start at (1,0) with 0 stars, reach the finish at (2,2) without a bomb; the first path collects 2 stars.
 check "path to safety" prolog/path_to_safety.pl \
-  "play(s(1,0,0,_), Path, Stars), format('path=~w stars=~w~n', [Path, Stars])"
+  "once(play(s(1,0,0,_), Path, Stars)), Stars =:= 2, format('path=~w stars=~w~n', [Path, Stars])"
 
-# Resource allocation graph: all four processes can finish, so the order has four elements.
+# Resource allocation graph: p2 and p4 are not waiting, they finish first and free resources for p1 and p3.
 check "resource allocation graph" prolog/resource_allocation_graph.pl \
-  "completed(Order), length(Order, 4), format('finish order=~w~n', [Order])"
+  "completed(Order), Order == [p2,p4,p1,p3], format('finish order=~w~n', [Order])"
 
 # Missionaries and cannibals: move everybody from the left bank to the right bank.
 check "missionaries and cannibals" prolog/missionaries_cannibals.pl \

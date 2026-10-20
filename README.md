@@ -17,6 +17,11 @@ GitHub Actions loads and runs every program on each push.
 ```bash
 swipl prolog/path_to_safety.pl
 ?- play(s(1,0,0,_), Path, Stars).
+Path = [right, down, down, right, up], Stars = 2 .
+
+?- [prolog/resource_allocation_graph].
+?- completed(Order).
+Order = [p2, p4, p1, p3] .
 ```
 
 ## CLIPS (`clips/`)
